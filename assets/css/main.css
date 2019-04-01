@@ -1,0 +1,694 @@
+body {
+  background: #f2f2f2 !important; }
+
+.starbella, .starbella-detail, .starbella-urun, .starbella-hesap, .starbella-more {
+  font-size: 12px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  box-sizing: border-box;
+  line-height: 24px;
+  letter-spacing: 0.8px; }
+  .starbella .column-max, .starbella-detail .column-max, .starbella-urun .column-max, .starbella-hesap .column-max, .starbella-more .column-max {
+    max-width: 85%;
+    margin: 0 auto; }
+  .starbella .boxed, .starbella-detail .boxed, .starbella-urun .boxed, .starbella-hesap .boxed, .starbella-more .boxed {
+    background: white; }
+    .starbella .boxed header .head p i, .starbella-detail .boxed header .head p i, .starbella-urun .boxed header .head p i, .starbella-hesap .boxed header .head p i, .starbella-more .boxed header .head p i {
+      color: #2fad4a; }
+    .starbella .boxed header .head span i, .starbella-detail .boxed header .head span i, .starbella-urun .boxed header .head span i, .starbella-hesap .boxed header .head span i, .starbella-more .boxed header .head span i {
+      font-size: 25px;
+      color: black; }
+    .starbella .boxed header .head img, .starbella-detail .boxed header .head img, .starbella-urun .boxed header .head img, .starbella-hesap .boxed header .head img, .starbella-more .boxed header .head img {
+      width: 200px; }
+    .starbella .boxed header .head p:hover i, .starbella-detail .boxed header .head p:hover i, .starbella-urun .boxed header .head p:hover i, .starbella-hesap .boxed header .head p:hover i, .starbella-more .boxed header .head p:hover i {
+      color: black; }
+    .starbella .boxed header .head ul, .starbella-detail .boxed header .head ul, .starbella-urun .boxed header .head ul, .starbella-hesap .boxed header .head ul, .starbella-more .boxed header .head ul {
+      list-style-type: none; }
+      .starbella .boxed header .head ul li, .starbella-detail .boxed header .head ul li, .starbella-urun .boxed header .head ul li, .starbella-hesap .boxed header .head ul li, .starbella-more .boxed header .head ul li {
+        margin-left: 20px;
+        border-bottom: 1px solid black; }
+      .starbella .boxed header .head ul a, .starbella-detail .boxed header .head ul a, .starbella-urun .boxed header .head ul a, .starbella-hesap .boxed header .head ul a, .starbella-more .boxed header .head ul a {
+        color: black;
+        font-size: 20px; }
+    .starbella .boxed header nav li, .starbella-detail .boxed header nav li, .starbella-urun .boxed header nav li, .starbella-hesap .boxed header nav li, .starbella-more .boxed header nav li {
+      padding-right: 21px; }
+    .starbella .boxed header nav a, .starbella-detail .boxed header nav a, .starbella-urun .boxed header nav a, .starbella-hesap .boxed header nav a, .starbella-more .boxed header nav a {
+      font-weight: 700;
+      color: #000;
+      font-size: 11px; }
+    .starbella .boxed .carousel .prev, .starbella-detail .boxed .carousel .prev, .starbella-urun .boxed .carousel .prev, .starbella-hesap .boxed .carousel .prev, .starbella-more .boxed .carousel .prev {
+      display: none;
+      background: #2fad4a;
+      padding: 10px 15px;
+      border-radius: 5px;
+      top: 50%;
+      left: 0%;
+      transition: background 0.2s ease-out;
+      z-index: 5555555; }
+      .starbella .boxed .carousel .prev a, .starbella-detail .boxed .carousel .prev a, .starbella-urun .boxed .carousel .prev a, .starbella-hesap .boxed .carousel .prev a, .starbella-more .boxed .carousel .prev a {
+        font-weight: 600;
+        text-decoration: none;
+        color: white; }
+    .starbella .boxed .carousel .next, .starbella-detail .boxed .carousel .next, .starbella-urun .boxed .carousel .next, .starbella-hesap .boxed .carousel .next, .starbella-more .boxed .carousel .next {
+      display: none;
+      background: #2fad4a;
+      padding: 10px 15px;
+      border-radius: 5px;
+      top: 50%;
+      right: 0%;
+      transition: background 0.2s ease-out;
+      z-index: 5555555; }
+      .starbella .boxed .carousel .next a, .starbella-detail .boxed .carousel .next a, .starbella-urun .boxed .carousel .next a, .starbella-hesap .boxed .carousel .next a, .starbella-more .boxed .carousel .next a {
+        font-weight: 600;
+        text-decoration: none;
+        color: white; }
+    .starbella .boxed .carousel:hover .prev, .starbella-detail .boxed .carousel:hover .prev, .starbella-urun .boxed .carousel:hover .prev, .starbella-hesap .boxed .carousel:hover .prev, .starbella-more .boxed .carousel:hover .prev {
+      display: flex; }
+    .starbella .boxed .carousel:hover .next, .starbella-detail .boxed .carousel:hover .next, .starbella-urun .boxed .carousel:hover .next, .starbella-hesap .boxed .carousel:hover .next, .starbella-more .boxed .carousel:hover .next {
+      display: flex; }
+    .starbella .boxed section .limited span, .starbella-detail .boxed section .limited span, .starbella-urun .boxed section .limited span, .starbella-hesap .boxed section .limited span, .starbella-more .boxed section .limited span {
+      font-weight: 700;
+      font-size: 11px; }
+    .starbella .boxed section .limited .view, .starbella-detail .boxed section .limited .view, .starbella-urun .boxed section .limited .view, .starbella-hesap .boxed section .limited .view, .starbella-more .boxed section .limited .view {
+      color: #2fad4a;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 700;
+      line-height: 14px;
+      text-decoration: underline;
+      font-size: 11px; }
+    .starbella .boxed section .limited .view:hover, .starbella-detail .boxed section .limited .view:hover, .starbella-urun .boxed section .limited .view:hover, .starbella-hesap .boxed section .limited .view:hover, .starbella-more .boxed section .limited .view:hover {
+      color: black; }
+    .starbella .boxed section .limited .scale a, .starbella-detail .boxed section .limited .scale a, .starbella-urun .boxed section .limited .scale a, .starbella-hesap .boxed section .limited .scale a, .starbella-more .boxed section .limited .scale a {
+      display: block;
+      overflow: hidden;
+      position: relative;
+      width: 100%; }
+    .starbella .boxed section .limited .scale img, .starbella-detail .boxed section .limited .scale img, .starbella-urun .boxed section .limited .scale img, .starbella-hesap .boxed section .limited .scale img, .starbella-more .boxed section .limited .scale img {
+      -ms-transition: all 0.5s ease 0s;
+      -webkit-transition: all 0.5s ease 0s;
+      transition: all 0.5s ease 0s;
+      display: block; }
+    .starbella .boxed section .limited .scale:hover img, .starbella-detail .boxed section .limited .scale:hover img, .starbella-urun .boxed section .limited .scale:hover img, .starbella-hesap .boxed section .limited .scale:hover img, .starbella-more .boxed section .limited .scale:hover img {
+      -moz-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05); }
+    .starbella .boxed section .limited .coco-rose, .starbella-detail .boxed section .limited .coco-rose, .starbella-urun .boxed section .limited .coco-rose, .starbella-hesap .boxed section .limited .coco-rose, .starbella-more .boxed section .limited .coco-rose, .starbella .boxed section .limited .body-foilen, .starbella-detail .boxed section .limited .body-foilen, .starbella-urun .boxed section .limited .body-foilen, .starbella-hesap .boxed section .limited .body-foilen, .starbella-more .boxed section .limited .body-foilen, .starbella .boxed section .limited .starbella-candle, .starbella-detail .boxed section .limited .starbella-candle, .starbella-urun .boxed section .limited .starbella-candle, .starbella-hesap .boxed section .limited .starbella-candle, .starbella-more .boxed section .limited .starbella-candle {
+      bottom: 30px;
+      padding: 0 38px;
+      z-index: 99999; }
+      .starbella .boxed section .limited .coco-rose .coco, .starbella-detail .boxed section .limited .coco-rose .coco, .starbella-urun .boxed section .limited .coco-rose .coco, .starbella-hesap .boxed section .limited .coco-rose .coco, .starbella-more .boxed section .limited .coco-rose .coco, .starbella .boxed section .limited .body-foilen .coco, .starbella-detail .boxed section .limited .body-foilen .coco, .starbella-urun .boxed section .limited .body-foilen .coco, .starbella-hesap .boxed section .limited .body-foilen .coco, .starbella-more .boxed section .limited .body-foilen .coco, .starbella .boxed section .limited .starbella-candle .coco, .starbella-detail .boxed section .limited .starbella-candle .coco, .starbella-urun .boxed section .limited .starbella-candle .coco, .starbella-hesap .boxed section .limited .starbella-candle .coco, .starbella-more .boxed section .limited .starbella-candle .coco {
+        font-size: 28px;
+        font-weight: bold;
+        color: black;
+        text-decoration: none !important; }
+    .starbella .boxed section .limited .body-foilen, .starbella-detail .boxed section .limited .body-foilen, .starbella-urun .boxed section .limited .body-foilen, .starbella-hesap .boxed section .limited .body-foilen, .starbella-more .boxed section .limited .body-foilen, .starbella .boxed section .limited .starbella-candle, .starbella-detail .boxed section .limited .starbella-candle, .starbella-urun .boxed section .limited .starbella-candle, .starbella-hesap .boxed section .limited .starbella-candle, .starbella-more .boxed section .limited .starbella-candle {
+      top: 30px; }
+    .starbella .boxed section .limited .candle, .starbella-detail .boxed section .limited .candle, .starbella-urun .boxed section .limited .candle, .starbella-hesap .boxed section .limited .candle, .starbella-more .boxed section .limited .candle {
+      padding: 0 38px;
+      position: absolute;
+      bottom: 30px; }
+    .starbella .boxed section .big-flate .flate, .starbella-detail .boxed section .big-flate .flate, .starbella-urun .boxed section .big-flate .flate, .starbella-hesap .boxed section .big-flate .flate, .starbella-more .boxed section .big-flate .flate {
+      text-align: center; }
+      .starbella .boxed section .big-flate .flate .discount, .starbella-detail .boxed section .big-flate .flate .discount, .starbella-urun .boxed section .big-flate .flate .discount, .starbella-hesap .boxed section .big-flate .flate .discount, .starbella-more .boxed section .big-flate .flate .discount {
+        font-size: 16px;
+        color: #000;
+        line-height: 24px;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+        text-transform: uppercase; }
+      .starbella .boxed section .big-flate .flate p, .starbella-detail .boxed section .big-flate .flate p, .starbella-urun .boxed section .big-flate .flate p, .starbella-hesap .boxed section .big-flate .flate p, .starbella-more .boxed section .big-flate .flate p {
+        color: #8c8c8c;
+        font-size: 12px;
+        line-height: 28px;
+        letter-spacing: 0.8px;
+        font-weight: 400;
+        margin: 35px 25px; }
+      .starbella .boxed section .big-flate .flate h2, .starbella-detail .boxed section .big-flate .flate h2, .starbella-urun .boxed section .big-flate .flate h2, .starbella-hesap .boxed section .big-flate .flate h2, .starbella-more .boxed section .big-flate .flate h2 {
+        white-space: nowrap;
+        font-size: 76px;
+        color: #000;
+        line-height: 60px;
+        font-weight: 600;
+        letter-spacing: 0.6px;
+        text-transform: uppercase;
+        margin: 5px 0 0; }
+      .starbella .boxed section .big-flate .flate button, .starbella-detail .boxed section .big-flate .flate button, .starbella-urun .boxed section .big-flate .flate button, .starbella-hesap .boxed section .big-flate .flate button, .starbella-more .boxed section .big-flate .flate button {
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        border: none;
+        padding: 10px 25px;
+        background-color: #2fad4a;
+        color: #fff;
+        font-style: normal;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+        line-height: 24px;
+        font-size: 11px; }
+      .starbella .boxed section .big-flate .flate button:hover, .starbella-detail .boxed section .big-flate .flate button:hover, .starbella-urun .boxed section .big-flate .flate button:hover, .starbella-hesap .boxed section .big-flate .flate button:hover, .starbella-more .boxed section .big-flate .flate button:hover {
+        background: black; }
+    .starbella .boxed section .products .header h2, .starbella-detail .boxed section .products .header h2, .starbella-urun .boxed section .products .header h2, .starbella-hesap .boxed section .products .header h2, .starbella-more .boxed section .products .header h2 {
+      font-size: 18px;
+      color: #000;
+      font-weight: 700;
+      text-align: center;
+      letter-spacing: 0.8px;
+      line-height: 24px;
+      text-transform: uppercase;
+      margin-bottom: 45px; }
+    .starbella .boxed section .products .latest ul, .starbella-detail .boxed section .products .latest ul, .starbella-urun .boxed section .products .latest ul, .starbella-hesap .boxed section .products .latest ul, .starbella-more .boxed section .products .latest ul {
+      list-style-type: none; }
+      .starbella .boxed section .products .latest ul a, .starbella-detail .boxed section .products .latest ul a, .starbella-urun .boxed section .products .latest ul a, .starbella-hesap .boxed section .products .latest ul a, .starbella-more .boxed section .products .latest ul a {
+        color: #000;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.8px;
+        margin-right: 50px;
+        text-align: center;
+        text-transform: uppercase; }
+    .starbella .boxed section .products .sales button, .starbella-detail .boxed section .products .sales button, .starbella-urun .boxed section .products .sales button, .starbella-hesap .boxed section .products .sales button, .starbella-more .boxed section .products .sales button {
+      padding: 11px 41px;
+      background-color: #2fad4a;
+      color: #fff;
+      font-style: normal;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      line-height: 24px;
+      font-size: 11px; }
+    .starbella .boxed section .products .sales .product .explain, .starbella-detail .boxed section .products .sales .product .explain, .starbella-urun .boxed section .products .sales .product .explain, .starbella-hesap .boxed section .products .sales .product .explain, .starbella-more .boxed section .products .sales .product .explain {
+      float: left;
+      width: 100%;
+      padding: 30px 0 0;
+      position: relative;
+      min-height: 160px; }
+      .starbella .boxed section .products .sales .product .explain .explain-1, .starbella-detail .boxed section .products .sales .product .explain .explain-1, .starbella-urun .boxed section .products .sales .product .explain .explain-1, .starbella-hesap .boxed section .products .sales .product .explain .explain-1, .starbella-more .boxed section .products .sales .product .explain .explain-1 {
+        transition: all 0.2s ease-in-out 0s;
+        text-transform: capitalize;
+        margin-bottom: 0;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.8px;
+        font-weight: 500;
+        padding-bottom: 20px;
+        opacity: 1;
+        -khtml-opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1; }
+        .starbella .boxed section .products .sales .product .explain .explain-1 a, .starbella-detail .boxed section .products .sales .product .explain .explain-1 a, .starbella-urun .boxed section .products .sales .product .explain .explain-1 a, .starbella-hesap .boxed section .products .sales .product .explain .explain-1 a, .starbella-more .boxed section .products .sales .product .explain .explain-1 a {
+          text-decoration: none;
+          color: black; }
+        .starbella .boxed section .products .sales .product .explain .explain-1 .admin, .starbella-detail .boxed section .products .sales .product .explain .explain-1 .admin, .starbella-urun .boxed section .products .sales .product .explain .explain-1 .admin, .starbella-hesap .boxed section .products .sales .product .explain .explain-1 .admin, .starbella-more .boxed section .products .sales .product .explain .explain-1 .admin {
+          margin-top: 4px;
+          color: #929292;
+          font-size: 10px;
+          letter-spacing: 1px; }
+      .starbella .boxed section .products .sales .product .explain .explain-2, .starbella-detail .boxed section .products .sales .product .explain .explain-2, .starbella-urun .boxed section .products .sales .product .explain .explain-2, .starbella-hesap .boxed section .products .sales .product .explain .explain-2, .starbella-more .boxed section .products .sales .product .explain .explain-2 {
+        padding-top: 20px;
+        border-top: 1px solid #f2f2f2; }
+        .starbella .boxed section .products .sales .product .explain .explain-2 .light-price, .starbella-detail .boxed section .products .sales .product .explain .explain-2 .light-price, .starbella-urun .boxed section .products .sales .product .explain .explain-2 .light-price, .starbella-hesap .boxed section .products .sales .product .explain .explain-2 .light-price, .starbella-more .boxed section .products .sales .product .explain .explain-2 .light-price {
+          text-decoration: line-through;
+          color: #8c8c8c; }
+        .starbella .boxed section .products .sales .product .explain .explain-2 .dark-price, .starbella-detail .boxed section .products .sales .product .explain .explain-2 .dark-price, .starbella-urun .boxed section .products .sales .product .explain .explain-2 .dark-price, .starbella-hesap .boxed section .products .sales .product .explain .explain-2 .dark-price, .starbella-more .boxed section .products .sales .product .explain .explain-2 .dark-price {
+          color: #000;
+          margin-left: 10px;
+          font-weight: 400; }
+      .starbella .boxed section .products .sales .product .explain .explain-hover, .starbella-detail .boxed section .products .sales .product .explain .explain-hover, .starbella-urun .boxed section .products .sales .product .explain .explain-hover, .starbella-hesap .boxed section .products .sales .product .explain .explain-hover, .starbella-more .boxed section .products .sales .product .explain .explain-hover {
+        display: none; }
+        .starbella .boxed section .products .sales .product .explain .explain-hover a, .starbella-detail .boxed section .products .sales .product .explain .explain-hover a, .starbella-urun .boxed section .products .sales .product .explain .explain-hover a, .starbella-hesap .boxed section .products .sales .product .explain .explain-hover a, .starbella-more .boxed section .products .sales .product .explain .explain-hover a {
+          transition: 0.3s;
+          font-weight: 500;
+          background: transparent;
+          border: none;
+          line-height: 24px;
+          font-size: 12px;
+          text-decoration: none;
+          color: #000;
+          text-transform: capitalize;
+          letter-spacing: 0.6px; }
+        .starbella .boxed section .products .sales .product .explain .explain-hover a:hover, .starbella-detail .boxed section .products .sales .product .explain .explain-hover a:hover, .starbella-urun .boxed section .products .sales .product .explain .explain-hover a:hover, .starbella-hesap .boxed section .products .sales .product .explain .explain-hover a:hover, .starbella-more .boxed section .products .sales .product .explain .explain-hover a:hover {
+          color: #2fad4a; }
+      .starbella .boxed section .products .sales .product .explain .review, .starbella-detail .boxed section .products .sales .product .explain .review, .starbella-urun .boxed section .products .sales .product .explain .review, .starbella-hesap .boxed section .products .sales .product .explain .review, .starbella-more .boxed section .products .sales .product .explain .review {
+        padding-bottom: 22px;
+        display: none; }
+        .starbella .boxed section .products .sales .product .explain .review span, .starbella-detail .boxed section .products .sales .product .explain .review span, .starbella-urun .boxed section .products .sales .product .explain .review span, .starbella-hesap .boxed section .products .sales .product .explain .review span, .starbella-more .boxed section .products .sales .product .explain .review span {
+          margin: 0 3px 0 0; }
+          .starbella .boxed section .products .sales .product .explain .review span i, .starbella-detail .boxed section .products .sales .product .explain .review span i, .starbella-urun .boxed section .products .sales .product .explain .review span i, .starbella-hesap .boxed section .products .sales .product .explain .review span i, .starbella-more .boxed section .products .sales .product .explain .review span i {
+            color: #f6d000;
+            margin-right: 2px;
+            font-size: 10px; }
+    .starbella .boxed section .products .sales .product:hover .explain-hover, .starbella-detail .boxed section .products .sales .product:hover .explain-hover, .starbella-urun .boxed section .products .sales .product:hover .explain-hover, .starbella-hesap .boxed section .products .sales .product:hover .explain-hover, .starbella-more .boxed section .products .sales .product:hover .explain-hover {
+      display: flex; }
+    .starbella .boxed section .products .sales .product:hover .review, .starbella-detail .boxed section .products .sales .product:hover .review, .starbella-urun .boxed section .products .sales .product:hover .review, .starbella-hesap .boxed section .products .sales .product:hover .review, .starbella-more .boxed section .products .sales .product:hover .review {
+      display: flex; }
+    .starbella .boxed section .products .sales .product:hover .explain-1, .starbella-detail .boxed section .products .sales .product:hover .explain-1, .starbella-urun .boxed section .products .sales .product:hover .explain-1, .starbella-hesap .boxed section .products .sales .product:hover .explain-1, .starbella-more .boxed section .products .sales .product:hover .explain-1 {
+      display: none; }
+    .starbella .boxed aside i, .starbella-detail .boxed aside i, .starbella-urun .boxed aside i, .starbella-hesap .boxed aside i, .starbella-more .boxed aside i {
+      color: #2fad4a;
+      font-size: 40px; }
+    .starbella .boxed aside i:hover, .starbella-detail .boxed aside i:hover, .starbella-urun .boxed aside i:hover, .starbella-hesap .boxed aside i:hover, .starbella-more .boxed aside i:hover {
+      color: black; }
+    .starbella .boxed aside p, .starbella-detail .boxed aside p, .starbella-urun .boxed aside p, .starbella-hesap .boxed aside p, .starbella-more .boxed aside p {
+      font-size: 12px;
+      color: #000;
+      font-weight: 700;
+      text-transform: uppercase; }
+    .starbella .boxed footer .footer-top .social ul, .starbella-detail .boxed footer .footer-top .social ul, .starbella-urun .boxed footer .footer-top .social ul, .starbella-hesap .boxed footer .footer-top .social ul, .starbella-more .boxed footer .footer-top .social ul {
+      list-style-type: none; }
+      .starbella .boxed footer .footer-top .social ul li, .starbella-detail .boxed footer .footer-top .social ul li, .starbella-urun .boxed footer .footer-top .social ul li, .starbella-hesap .boxed footer .footer-top .social ul li, .starbella-more .boxed footer .footer-top .social ul li {
+        margin: 0 5px; }
+        .starbella .boxed footer .footer-top .social ul li a, .starbella-detail .boxed footer .footer-top .social ul li a, .starbella-urun .boxed footer .footer-top .social ul li a, .starbella-hesap .boxed footer .footer-top .social ul li a, .starbella-more .boxed footer .footer-top .social ul li a {
+          padding: 4px 10px 4px 0;
+          -ms-transition: all 0.2s ease 0s;
+          -webkit-transition: all 0.2s ease 0s;
+          transition: all 0.2s ease 0s;
+          color: #000;
+          text-decoration: none;
+          font-size: 15px; }
+        .starbella .boxed footer .footer-top .social ul li a:hover, .starbella-detail .boxed footer .footer-top .social ul li a:hover, .starbella-urun .boxed footer .footer-top .social ul li a:hover, .starbella-hesap .boxed footer .footer-top .social ul li a:hover, .starbella-more .boxed footer .footer-top .social ul li a:hover {
+          color: #2fad4a; }
+    .starbella .boxed footer .footer-top .payment ul, .starbella-detail .boxed footer .footer-top .payment ul, .starbella-urun .boxed footer .footer-top .payment ul, .starbella-hesap .boxed footer .footer-top .payment ul, .starbella-more .boxed footer .footer-top .payment ul {
+      list-style-type: none; }
+      .starbella .boxed footer .footer-top .payment ul li a, .starbella-detail .boxed footer .footer-top .payment ul li a, .starbella-urun .boxed footer .footer-top .payment ul li a, .starbella-hesap .boxed footer .footer-top .payment ul li a, .starbella-more .boxed footer .footer-top .payment ul li a {
+        padding: 4px 10px 4px 0;
+        -ms-transition: all 0.2s ease 0s;
+        -webkit-transition: all 0.2s ease 0s;
+        transition: all 0.2s ease 0s;
+        color: #000;
+        text-decoration: none;
+        font-size: 25px; }
+      .starbella .boxed footer .footer-top .payment ul li a:hover, .starbella-detail .boxed footer .footer-top .payment ul li a:hover, .starbella-urun .boxed footer .footer-top .payment ul li a:hover, .starbella-hesap .boxed footer .footer-top .payment ul li a:hover, .starbella-more .boxed footer .footer-top .payment ul li a:hover {
+        color: #2fad4a; }
+    .starbella .boxed footer .footer-center input, .starbella-detail .boxed footer .footer-center input, .starbella-urun .boxed footer .footer-center input, .starbella-hesap .boxed footer .footer-center input, .starbella-more .boxed footer .footer-center input {
+      width: 250px !important;
+      border: none;
+      margin: 0;
+      border-radius: 0;
+      background-color: #f5f5f5;
+      padding: 10px 28px;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 1px; }
+    .starbella .boxed footer .footer-center span, .starbella-detail .boxed footer .footer-center span, .starbella-urun .boxed footer .footer-center span, .starbella-hesap .boxed footer .footer-center span, .starbella-more .boxed footer .footer-center span {
+      background: #2fad4a;
+      width: 45px;
+      color: white; }
+      .starbella .boxed footer .footer-center span i, .starbella-detail .boxed footer .footer-center span i, .starbella-urun .boxed footer .footer-center span i, .starbella-hesap .boxed footer .footer-center span i, .starbella-more .boxed footer .footer-center span i {
+        font-size: 25px;
+        padding: 7px 0px 3px 7px; }
+    .starbella .boxed footer .footer-bottom nav li, .starbella-detail .boxed footer .footer-bottom nav li, .starbella-urun .boxed footer .footer-bottom nav li, .starbella-hesap .boxed footer .footer-bottom nav li, .starbella-more .boxed footer .footer-bottom nav li {
+      padding-right: 21px; }
+    .starbella .boxed footer .footer-bottom nav a, .starbella-detail .boxed footer .footer-bottom nav a, .starbella-urun .boxed footer .footer-bottom nav a, .starbella-hesap .boxed footer .footer-bottom nav a, .starbella-more .boxed footer .footer-bottom nav a {
+      font-weight: 700;
+      color: #000;
+      font-size: 11px; }
+    .starbella .boxed footer .footer-finish p, .starbella-detail .boxed footer .footer-finish p, .starbella-urun .boxed footer .footer-finish p, .starbella-hesap .boxed footer .footer-finish p, .starbella-more .boxed footer .footer-finish p {
+      font-size: 11px;
+      color: #888;
+      letter-spacing: 1px;
+      text-transform: uppercase; }
+      .starbella .boxed footer .footer-finish p a, .starbella-detail .boxed footer .footer-finish p a, .starbella-urun .boxed footer .footer-finish p a, .starbella-hesap .boxed footer .footer-finish p a, .starbella-more .boxed footer .footer-finish p a {
+        color: #888;
+        text-decoration: none; }
+      .starbella .boxed footer .footer-finish p a:hover, .starbella-detail .boxed footer .footer-finish p a:hover, .starbella-urun .boxed footer .footer-finish p a:hover, .starbella-hesap .boxed footer .footer-finish p a:hover, .starbella-more .boxed footer .footer-finish p a:hover {
+        color: #2fad4a; }
+
+.starbella-detail article nav {
+  padding: 40px 0;
+  min-height: 145px;
+  background-color: #f8f8f8; }
+  .starbella-detail article nav ol {
+    background: transparent !important; }
+    .starbella-detail article nav ol a {
+      color: #000;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0.8px;
+      text-transform: Capitalize; }
+.starbella-detail section .urun .right-side h1, .starbella-detail section .urun .price h1 {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center !important;
+  color: #000; }
+.starbella-detail section .urun .right-side .review, .starbella-detail section .urun .price .review {
+  padding-bottom: 22px; }
+  .starbella-detail section .urun .right-side .review span, .starbella-detail section .urun .price .review span {
+    margin: 0 3px 0 0; }
+    .starbella-detail section .urun .right-side .review span i, .starbella-detail section .urun .price .review span i {
+      color: #f6d000;
+      margin-right: 2px;
+      font-size: 10px; }
+.starbella-detail section .urun .right-side .vendor p, .starbella-detail section .urun .price .vendor p {
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase; }
+  .starbella-detail section .urun .right-side .vendor p span, .starbella-detail section .urun .price .vendor p span {
+    vertical-align: middle;
+    margin: 0;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #8c8c8c; }
+    .starbella-detail section .urun .right-side .vendor p span a, .starbella-detail section .urun .price .vendor p span a {
+      font-weight: 300;
+      color: #8c8c8c;
+      text-decoration: none; }
+    .starbella-detail section .urun .right-side .vendor p span a:hover, .starbella-detail section .urun .price .vendor p span a:hover {
+      color: #2fad4a; }
+.starbella-detail section .urun .price {
+  font-size: 18px; }
+  .starbella-detail section .urun .price .light-price {
+    text-decoration: line-through;
+    color: #8c8c8c; }
+  .starbella-detail section .urun .price .dark-price {
+    color: #000;
+    margin-left: 10px;
+    font-weight: 400; }
+  .starbella-detail section .urun .price input {
+    font-size: 12px;
+    padding: 10px 5px 10px 25px;
+    line-height: 30px;
+    width: 220px;
+    background-color: #f7f7f7;
+    font-weight: 300;
+    border-radius: 0px;
+    border: none; }
+  .starbella-detail section .urun .price button {
+    display: block;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 1.4;
+    padding-left: 62px;
+    padding-right: 62px;
+    white-space: normal;
+    margin-top: 0px;
+    min-height: 46px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0; }
+.starbella-detail section .urun .bottom-side p {
+  color: #000;
+  line-height: 18px;
+  padding: 15px 0;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  text-transform: uppercase; }
+.starbella-detail section .urun .bottom-side .bord {
+  border-right: 2px solid #2fad4a; }
+.starbella-detail section .urun .bottom-side .description {
+  line-height: 24px;
+  width: 100%;
+  padding: 70px 80px;
+  color: #8c8c8c;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+  text-transform: none; }
+.starbella-detail section .urun .back button {
+  padding: 8px 15px;
+  background-color: #2fad4a;
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  white-space: normal;
+  line-height: 24px;
+  font-size: 11px; }
+
+.starbella-urun section h4 {
+  color: black;
+  font-weight: 600; }
+.starbella-urun section table {
+  color: #8c8c8c;
+  font-size: 14px; }
+  .starbella-urun section table thead {
+    background: black;
+    color: #f2f2f2; }
+  .starbella-urun section table img {
+    width: 80px; }
+.starbella-urun section .bilgi .kargo {
+  width: 300px; }
+  .starbella-urun section .bilgi .kargo .tarih {
+    background: #e7e7e7; }
+  .starbella-urun section .bilgi .kargo p {
+    color: black;
+    font-size: 14px;
+    font-weight: 600; }
+    .starbella-urun section .bilgi .kargo p span {
+      font-weight: 400;
+      color: #8c8c8c; }
+
+.starbella-hesap section label {
+  font-size: 14px;
+  color: black; }
+.starbella-hesap section input, .starbella-hesap section select {
+  background: transparent; }
+.starbella-hesap section input::placeholder {
+  font-size: 14px;
+  color: black; }
+.starbella-hesap section h4, .starbella-hesap section h6 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600; }
+.starbella-hesap section .ekle {
+  color: #2fad4a;
+  font-weight: 500;
+  font-size: 14px; }
+.starbella-hesap section .kaldir {
+  color: darkred;
+  font-weight: 500;
+  font-size: 14px; }
+.starbella-hesap section .guncelle {
+  color: #f2f2f2;
+  font-weight: 500;
+  font-size: 16px;
+  background: #2fad4a; }
+.starbella-hesap section .head .hesap {
+  background: #e7e7e7;
+  border: 1px solid darkgrey; }
+  .starbella-hesap section .head .hesap p {
+    font-size: 14px;
+    color: black; }
+    .starbella-hesap section .head .hesap p span {
+      color: #8c8c8c; }
+
+.starbella-more article nav {
+  padding: 40px 0;
+  min-height: 145px;
+  background-color: #f8f8f8; }
+  .starbella-more article nav ol {
+    background: transparent !important; }
+    .starbella-more article nav ol a {
+      color: #000;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0.8px;
+      text-transform: Capitalize; }
+.starbella-more section aside .categories h3, .starbella-more section aside .filter h3, .starbella-more section aside .random h3 {
+  font-size: 16px;
+  color: #000;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin: 0;
+  padding-bottom: 20px;
+  position: relative; }
+.starbella-more section aside .categories h3:before, .starbella-more section aside .filter h3:before, .starbella-more section aside .random h3:before {
+  border-bottom: 2px solid #2fad4a;
+  left: 0;
+  right: auto;
+  margin: 0 auto;
+  content: "";
+  bottom: 0;
+  position: absolute;
+  width: 50px;
+  height: 0;
+  top: auto; }
+.starbella-more section aside .categories ul, .starbella-more section aside .filter ul, .starbella-more section aside .random ul {
+  list-style-type: none; }
+  .starbella-more section aside .categories ul li, .starbella-more section aside .filter ul li, .starbella-more section aside .random ul li {
+    padding: 4px 0; }
+    .starbella-more section aside .categories ul li i, .starbella-more section aside .filter ul li i, .starbella-more section aside .random ul li i {
+      font-size: 13px;
+      color: #666666; }
+    .starbella-more section aside .categories ul li a, .starbella-more section aside .filter ul li a, .starbella-more section aside .random ul li a {
+      text-decoration: none;
+      line-height: 24px;
+      font-size: 12px;
+      text-transform: capitalize;
+      letter-spacing: 0.8px;
+      color: #000; }
+.starbella-more section aside .filter div a {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  vertical-align: top;
+  padding: 5px 10px;
+  border: 1px solid #f2f2f2;
+  line-height: 20px;
+  margin: 0 0 5px 0;
+  color: black;
+  text-decoration: none; }
+.starbella-more section aside .filter div a:hover {
+  text-decoration: none;
+  border: 1px solid #2fad4a;
+  color: #2fad4a; }
+.starbella-more section aside .random .light-price {
+  text-decoration: line-through;
+  color: #8c8c8c; }
+.starbella-more section aside .random .dark-price {
+  color: #000;
+  margin-left: 10px;
+  font-weight: 400; }
+.starbella-more section aside .random a:hover {
+  color: #2fad4a; }
+.starbella-more section .righter p {
+  font-size: 12px;
+  color: #8c8c8c; }
+.starbella-more section .sort select {
+  border: 1px solid #dedede !important;
+  padding: 10px 70px 10px 15px; }
+.starbella-more section .sort span {
+  font-size: 12px;
+  line-height: 40px;
+  color: #8c8c8c; }
+.starbella-more section .sales button {
+  padding: 11px 41px;
+  background-color: #2fad4a;
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  line-height: 24px;
+  font-size: 11px; }
+.starbella-more section .sales .product .explain {
+  float: left;
+  width: 100%;
+  padding: 30px 0 0;
+  position: relative;
+  min-height: 160px; }
+  .starbella-more section .sales .product .explain .explain-1 {
+    transition: all 0.2s ease-in-out 0s;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    opacity: 1;
+    -khtml-opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1; }
+    .starbella-more section .sales .product .explain .explain-1 a {
+      text-decoration: none;
+      color: black; }
+    .starbella-more section .sales .product .explain .explain-1 .admin {
+      margin-top: 4px;
+      color: #929292;
+      font-size: 10px;
+      letter-spacing: 1px; }
+  .starbella-more section .sales .product .explain .explain-2 {
+    padding-top: 20px;
+    border-top: 1px solid #f2f2f2; }
+    .starbella-more section .sales .product .explain .explain-2 .light-price {
+      text-decoration: line-through;
+      color: #8c8c8c; }
+    .starbella-more section .sales .product .explain .explain-2 .dark-price {
+      color: #000;
+      margin-left: 10px;
+      font-weight: 400; }
+  .starbella-more section .sales .product .explain .explain-hover {
+    display: none; }
+    .starbella-more section .sales .product .explain .explain-hover a {
+      font-weight: 500;
+      background: transparent;
+      border: none;
+      line-height: 24px;
+      font-size: 12px;
+      text-decoration: none;
+      color: #000;
+      text-transform: capitalize;
+      letter-spacing: 0.6px; }
+    .starbella-more section .sales .product .explain .explain-hover a:hover {
+      color: #2fad4a; }
+  .starbella-more section .sales .product .explain .review {
+    padding-bottom: 22px;
+    display: none; }
+    .starbella-more section .sales .product .explain .review span {
+      margin: 0 3px 0 0; }
+      .starbella-more section .sales .product .explain .review span i {
+        color: #f6d000;
+        margin-right: 2px;
+        font-size: 10px; }
+.starbella-more section .sales .product:hover .explain-hover {
+  display: flex; }
+.starbella-more section .sales .product:hover .review {
+  display: flex; }
+.starbella-more section .sales .product:hover .explain-1 {
+  display: none; }
+.starbella-more section .paging .active a {
+  color: white !important;
+  background-color: #2fad4a !important; }
+.starbella-more section .paging .page-item {
+  margin-right: 5px; }
+  .starbella-more section .paging .page-item .page-link {
+    color: black;
+    border: 0 !important; }
+  .starbella-more section .paging .page-item .page-link:hover {
+    background: #2fad4a;
+    color: white; }
+.starbella-more section .ek h3 {
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin: 0;
+  padding-bottom: 20px;
+  position: relative; }
+
+@media only screen and (max-width: 989px) {
+  .starbella .boxed section .big-flate .flate h2, .starbella-detail .boxed section .big-flate .flate h2, .starbella-urun .boxed section .big-flate .flate h2, .starbella-hesap .boxed section .big-flate .flate h2, .starbella-more .boxed section .big-flate .flate h2 {
+    font-size: 40px;
+    line-height: 40px; }
+  .starbella .boxed section .big-flate .flate .discount, .starbella-detail .boxed section .big-flate .flate .discount, .starbella-urun .boxed section .big-flate .flate .discount, .starbella-hesap .boxed section .big-flate .flate .discount, .starbella-more .boxed section .big-flate .flate .discount {
+    font-size: 13px; }
+  .starbella .boxed section .big-flate .flate p, .starbella-detail .boxed section .big-flate .flate p, .starbella-urun .boxed section .big-flate .flate p, .starbella-hesap .boxed section .big-flate .flate p, .starbella-more .boxed section .big-flate .flate p {
+    margin: 15px;
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+    font-weight: 400; }
+
+  .starbella-detail section .urun .borda {
+    border-right: 0 !important; }
+  .starbella-detail section .urun .bottom-side .description {
+    padding: 10px; } }
+@media screen and (max-width: 1300px) {
+  .starbella .boxed section .limited .coco-rose .coco, .starbella-detail .boxed section .limited .coco-rose .coco, .starbella-urun .boxed section .limited .coco-rose .coco, .starbella-hesap .boxed section .limited .coco-rose .coco, .starbella-more .boxed section .limited .coco-rose .coco, .starbella .boxed section .limited .body-foilen .coco, .starbella-detail .boxed section .limited .body-foilen .coco, .starbella-urun .boxed section .limited .body-foilen .coco, .starbella-hesap .boxed section .limited .body-foilen .coco, .starbella-more .boxed section .limited .body-foilen .coco, .starbella .boxed section .limited .starbella-candle .coco, .starbella-detail .boxed section .limited .starbella-candle .coco, .starbella-urun .boxed section .limited .starbella-candle .coco, .starbella-hesap .boxed section .limited .starbella-candle .coco, .starbella-more .boxed section .limited .starbella-candle .coco {
+    font-size: 20px; } }
+@media screen and (max-width: 576px) {
+  .starbella .boxed header .navs, .starbella-detail .boxed header .navs, .starbella-urun .boxed header .navs, .starbella-hesap .boxed header .navs, .starbella-more .boxed header .navs {
+    width: 100%; }
+  .starbella .boxed aside .bord, .starbella-detail .boxed aside .bord, .starbella-urun .boxed aside .bord, .starbella-hesap .boxed aside .bord, .starbella-more .boxed aside .bord {
+    border-right: 0 !important; }
+  .starbella .boxed aside .bord-2, .starbella-detail .boxed aside .bord-2, .starbella-urun .boxed aside .bord-2, .starbella-hesap .boxed aside .bord-2, .starbella-more .boxed aside .bord-2 {
+    border-bottom: 1px solid #dee2e6; } }
+
+/*# sourceMappingURL=main.css.map */
